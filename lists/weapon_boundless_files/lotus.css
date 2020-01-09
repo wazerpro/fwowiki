@@ -1,0 +1,593 @@
+
+
+/* Lotus Goddess Archives Main CSS File */
+
+
+/* set defaults */
+
+@import "/web/20190227050452cs_/http://fwo.easternmorning.ca/rmenu_lotus.css";
+
+body {
+	background-color: #047;
+	color: #fff;
+	font-family: verdana, arial, helvetica, sans-serif; 
+	font-size: 76%; 
+	padding: 0; 
+	margin: 0;
+}
+
+a, a:link, a:visited { color: #fb1; text-decoration: none }
+a:hover, a:active { color: #fff; text-decoration: underline; }
+
+h1, h2, h3 { font-weight: normal; }
+a, b, strong, h4, h5, h6 { font-weight: bold; }
+h2, h3, h4, h5, h6 { margin: 1.2em 0em; }
+
+h1 {	font-size: 2em; margin-top: 0em; margin-bottom: 0em; }
+h2 {	font-size: 1.7em; }
+h3 {	font-size: 1.4em; }
+h4 {	font-size: 1.2em; }
+h5 {	font-size: 1em; }
+h6 {	font-size: 0.8em; }
+
+img {	border-width: 0px; }
+ol, ul, li, dl, dt, dd { font-size: 1em; }
+th, td, tr { font-size: 1em; margin: 1.2em 0em; }
+
+p {	font-size: 1em; line-height: 1.6em; margin: 1.2em 0.3em; }
+
+abbr, acronym, span.abbr { border-bottom: 1px dashed #fff; cursor: help; }
+hr { height: 1px; color: #fb1; }
+unknown { margin-top: 0.2em; }
+
+table { border-collapse: collapse; margin-right: auto; margin-left: auto; width: 98%; }
+th, td { border: 1px solid #fb1; padding: .5em; }
+tr { background-color: #08b;}
+thead th { background-color: #047; color: #fb1; }
+tbody th { background-color: #08b; color: #fff; }
+
+
+
+/* base container */
+		
+		#container
+		{
+			background: #047 url(http://web.archive.org/web/20190227050452im_/http://miaomiao.freepgs.com/img/047.gif) repeat-y top left;
+		}
+
+
+/* site header */		
+		#top
+		{
+			background-color: #047;
+			border-bottom: 1px solid #005;
+			text-align: left;
+			width: 100%;
+		}
+		#top h1
+		{
+			font-size: 0em;
+			border-bottom: 1px solid #fb1;
+		}
+
+		img#top h1
+		{
+			display: block;
+		}
+
+
+/* top navigation */
+		ul#topnav
+		{
+			background-color: #005;
+			list-style-type: none;
+			margin: 0;
+			padding: 5px 10px;
+		}
+		ul#topnav li
+		{
+			background: url(http://web.archive.org/web/20190227050452im_/http://miaomiao.freepgs.com/img/header-bullet.gif) no-repeat 0 50%;
+			display: inline;
+			padding: 0 10px 0 8px;
+		}
+
+/* side container  */
+		#vnav
+		{
+			float: left;
+			margin-top: 6px;
+			margin-left: 2px;
+			padding-top: 0;
+			width: 160px;
+		}
+
+/* vertical navigation stuff  */
+		#vnav ul
+		{
+			border: solid 1px #fb1;
+			border-bottom-width: 1px;
+			margin-bottom: 15px;
+		}
+		#vnav ul li
+		{
+			border-bottom: solid 1px #08b;
+		} 
+		#vnav h3
+		{
+			background-color: #036;
+			border-top: solid 1px #fb1;
+			border-right: solid 1px #fb1;
+			border-left: solid 1px #fb1;
+			margin-top: 0;
+			margin-bottom: 0;
+			padding: 4px;
+		}
+
+
+/* Main Content area */
+		#main
+		{
+			background-color: #069;
+			border-bottom:1px solid #fb1;
+			border-right:1px solid #fb1;
+			border-left:1px solid #fb1;
+			margin: 6px 1em 1em 175px;
+			padding-top: 0;
+			line-height: 1.1;
+		}		
+		#main h2
+		{ 
+			background-color: #036;
+			border-top:1px solid #fb1;
+			border-bottom:1px solid #fb1;
+			margin-top: 0;
+			margin-bottom: 0.6em;
+			padding: 2px;
+		}
+
+		.sublinks { margin-top: 2em; }
+		
+		.sublinks ul
+		{
+			margin: 0.6em 0;
+			padding: 0.1em 0;
+			text-align: center;
+		}
+		.sublinks ul li
+		{
+			display: inline;
+		}
+
+		.sublinks ul li a:visited, #shoplist ul li a:visited
+		{
+			color: #f90;
+		}
+
+		.sublinks li.sublinkhead
+		{
+			font-weight: bold;
+		}
+		
+		#content
+		{
+			background-color: #069;
+			padding: 0em 0.5em 0em;
+		}
+		#content h3
+		{
+			color: #fb1;
+			border-bottom:1px solid #fb1;
+			margin: 1.2em 0.1em 1em;
+			padding: 0em 0em 0em;
+		}
+
+		#content h3 img
+		{
+			margin-right: 0.2em;
+		}
+
+		#content h3 a, #content h3 a:link, #content h3 a:visited, #content h3 a:hover, #content h3 a:active
+		{
+			color: #fb1;
+			font-weight: normal;
+			text-decoration: none
+		}
+
+	.news
+	{;
+		margin: 0.3em;
+	}
+	.newshead
+	{
+		margin: 0 0.1em 0.1em 0;
+		padding-bottom: 10px;
+	}
+	.newshead img
+	{
+		float: left;
+		margin: 0px 5px 0 0;
+	}
+	.newshead h3
+	{
+		margin: 0;
+		padding: 0;
+	}
+	.newshead p
+	{
+		margin: 0;
+		padding: 0.2em;
+	}
+
+		#shoplist ul
+		{
+			margin: 0.1em 0;
+			padding: 0.1em 0;
+			text-align: left;
+		}
+		#shoplist ul li
+		{
+			display: inline;
+		}
+		#shoplist ul li a:hover, #shoplist ul li a:active 
+		{ color: #fff; text-decoration: underline; }
+
+		#shoplist h4, .sublinks h4
+		{
+			font-size: 1.1em;
+			margin: 0.8em 0em;
+		}
+
+		.genlist ul 
+		{
+			list-style-type: none;
+			margin: 0.1em;
+			padding: 0.1em;
+			text-align: left;
+		}
+
+		.genlist ul li { line-height: 1.2em; margin: 1.2em 0.1em; }
+
+		.route table { margin-bottom: 1em; } 
+		.route td { vertical-align: top; width: 33%;}
+		.route th, .route td { border-style: none; }
+		.route tr { background-color: #069;}
+		.route thead th { background-color: #069; color: #fff; border-bottom:1px solid #fb1; }
+		.route tbody th { background-color: #069; color: #fff; }
+		.route dd
+		{
+		  margin: 0; 
+		  text-indent: 0.5em;
+		  padding: 0.1em; 
+		  text-align: left; 
+		}
+		dd.rtfoc { font-weight: bold; }
+		dd.rtclan { font-style: italic; }
+		.route dt
+		{
+		  margin:0; 
+		  padding:0em; 
+		  text-align:left; 
+		  font-weight:bold; 
+		}
+		.route dl 
+		{
+		  margin: 0;
+		  padding: 0;
+		}
+
+/* Gallery Stuff */
+
+		#gallery dl, #clothing dl, #clist dl { text-align:center; font-size:.95em; margin-top:25px; }
+		#gallery em, #clothing em { display:block; font-weight:bold; margin-bottom:5px;}
+		#gallery br, #clothing br, #clist br { clear: both; height: 0; font-size: 1px; line-height: 0px;}		
+		
+		#gallery dt, #gallery dd { width:12em; float:left; }
+		#gallery dt { margin-bottom:5.5em; }
+		#gallery dd { margin:110px 0 0 -12em; }
+		#gallery img, #clothing img, #clist img { vertical-align:bottom; border:1px solid #069; padding:2px; background:#069;}
+		#gallery dl a:hover img, #gallery dl a:active img, #gallery dl a:focus img { background:#fb3; }
+
+		#clothing dt, #clothing dd { width:19em; float:left; }
+		#clothing dt { margin-bottom:5.5em; }
+		#clothing dd { margin:462px 0 0 -19em; }
+
+		#clist dt, #clist dd { width:12.5em; float:left; }
+		#clist dt { margin-bottom:5.5em; }
+		#clist dd { margin:315px 0 0 -12.5em; }
+		#clist dd a { margin-left: 0; display:block; margin-bottom:5px;}
+		#clist dl a:hover img, #clist dl a:active img, #clist dl a:focus img { background:#fb3; }
+
+		.chatscr th, .chatscr td { border-style: none; background-color: #069; }
+		.chatscr td { vertical-align: top; padding: 1px; }
+
+/* Table Stuff */
+		#powertable
+		{ margin-top: 2.5em; }
+
+		.picon, .psta, .plvl { width: 5%; }
+		.pname { width: 18%; }
+		.pdesc { width: 52%; text-align: center; }
+		.ploc { width: 15%; }
+
+		#powertable .col3, .col4, .col6 { text-align: center; }
+		#powertable .col5  { text-align: left; }
+		#powertable tbody th:first-child + th + td { text-align: center; }
+		#powertable tbody th:first-child + th + td + td { text-align: center; }
+		#powertable tbody th:first-child + th + td + td + td { text-align: left; }
+		#powertable tbody th:first-child + th + td + td + td +td { text-align: center; }
+
+		#powertable tr.clanpw td { background-color: #079; }
+		#powertable tr.clanpw th { background-color: #079; }
+		#powertable tr.lp td { background-color: #057; }
+		#powertable tr.lp th { background-color: #057; }
+
+		.clanpw strong { color: #fb1; }
+
+		#tcbtable
+		{ margin-top: 2.5em; }
+		.tcbname { width: 10%; }
+		.tcbeff { width: 85%; }
+
+		#tcbtable .col1  { text-align: center; }
+		#tcbtable .col2  { text-align: left; }
+		#tcbtable tbody th:first-child { text-align: center; }
+
+		#skltable
+		{ margin-top: 2.5em; }
+
+		.sklicon { width: 5%; }
+		.sklname { width: 18%; }
+		.skldesc { width: 57%; }
+		.sklloc { width: 20%; }
+
+		#skltable .col4  { text-align: center; }		
+		#skltable tbody th:first-child + th + td + td { text-align: center; }
+
+		.unwname { width: 15%; }
+		.unwdesc { width: 70%; }
+		.unwloc { width: 15%; }
+
+		#unwtable .col3  { text-align: center; }		
+		#unwtable tbody th:first-child + td + td { text-align: center; }
+
+		#comptable
+		{ margin-top: 2.5em; }
+
+		.compicon, .complvl { width: 5%; }
+		.compname { width: 18%; }
+		.compdesc { width: 57%; }
+		.comploc { width: 15%; }
+
+		#comptable .col4, .col5 { text-align: center; }
+		#comptable tbody th:first-child + th + td + td { text-align: center; }
+		#comptable tbody th:first-child + th + td + td + td { text-align: center; }
+
+		#recptable
+		{ margin-top: 2.5em; }
+
+		.recplvl { width: 5%; }
+		.recpname { width: 18%; }
+		.recpcomp { width: 80%; }
+
+		#shoptable
+		{ margin-top: 2.5em; }
+
+		.shopicon, .shoplvl { width: 5%; }
+		.shoptype { width: 10%; }
+		.shopname { width: 18%; }
+		.shopdesc { width: 52%; text-align: center; }
+		.shopcost { width: 5%; }
+
+		#shoptable .col3, .col5, .col6 { text-align: center; }
+		#shoptable .col4  { text-align: left; }
+		#shoptable tbody th:first-child + th + td { text-align: center; }
+		#shoptable tbody th:first-child + th + td + td + td { text-align: center; }
+		#shoptable tbody th:first-child + th + td + td + td + td{ text-align: center; }
+
+		.shpwtable
+		{ margin-top: 2.5em; }
+
+		.shpwicon, .shpwsta, .shpwlvl { width: 5%; }
+		.shpwname { width: 18%; }
+		.shpwdesc { width: 62%; text-align: center; }
+		.shpwcost { width: 5%; }
+
+		.shpwtable .col3, .col4 { text-align: center; }
+		.shpwtable .col5  { text-align: left; }
+		.shpwtable tbody th:first-child + th + td { text-align: center; }
+		.shpwtable tbody th:first-child + th + td + td { text-align: center; }
+		.shpwtable tbody th:first-child + th + td + td + td + td { text-align: center; }
+
+		.shsstable
+		{ margin-top: 2.5em; }
+
+		.shssicon { width: 5%; }
+		.shssname { width: 90%; }
+		.shsscost { width: 5%; }
+
+		
+		.shsstable .col2 { font-weight: bold; }
+		.shsstable .col3 { text-align: center; }
+		.shsstable tbody th:first-child + td + td { text-align: center; }
+		.shsstable tbody th:first-child + td { font-weight: bold; }
+
+		#constable
+		{ margin-top: 2.5em; }
+
+		.consicon, .conslvl, .constype { width: 5%; }
+		.consname { width: 18%; }
+		.consdesc { width: 52%; text-align: center; }
+		.consloc { width: 15%; }
+
+		#constable .col3, .col5, .col6 { text-align: center; }
+		#constable .col4 { text-align: left; }
+		#constable tbody th:first-child + th + td { text-align: center; }
+		#constable tbody th:first-child + th + td + td + td { text-align: center; }
+		#constable tbody th:first-child + th + td + td + td + td { text-align: center; }
+
+		#eqcmtable
+		{ margin-top: 2.5em; }
+
+		.eqcmicon  { width: 5%; }
+		.eqcmlvl { width: 8%; }
+		.eqcmname { width: 18%; }
+		.eqcmdesc { width: 69%; text-align: center; }
+
+		#eqcmtable .col3 { text-align: center; }
+		#eqcmtable .col4 { text-align: left; }
+		#eqcmtable tbody th:first-child + th + td { text-align: center; }
+
+		#equntable
+		{ margin-top: 2.5em; }
+
+		.equnicon { width: 5%; }
+		.equnlvl { width: 8%; }
+		.equnname { width: 18%; }
+		.equndesc { width: 59%; text-align: center; }
+		.equnloc { width: 10%; }
+
+		#equntable .col3, .col5 { text-align: center; }
+		#equntable .col4 { text-align: left; }
+		#equntable tbody th:first-child + th + td { text-align: center; }
+		#equntable tbody th:first-child + th + td +td + td { text-align: center; }
+
+		#eqrrtable
+		{ margin-top: 2.5em; }
+
+		.eqrricon { width: 5%; }
+		.eqrrlvl { width: 8%; }
+		.eqrrname { width: 18%; }
+		.eqrrdesc { width: 59%; text-align: center; }
+		.eqrrloc { width: 10%; }
+
+		#eqrrtable .col3, .col5 { text-align: center; }
+		#eqrrtable .col4 { text-align: left; }
+		#eqrrtable tbody th:first-child + th + td { text-align: center; }
+		#eqrrtable tbody th:first-child + th + td +td + td { text-align: center; }
+
+		#wpntable
+		{ margin-top: 2.5em; }
+
+		.wpnicon, .wpnlvl, .wpntype { width: 5%; }
+		.wpnname { width: 18%; }
+		.wpndesc { width: 57%; text-align: center; }
+		.wpnloc { width: 10%; }
+
+		#wpntable .col3, .col5, .col6 { text-align: center; }
+		#wpntable .col4  { text-align: left; }
+		#wpntable tbody th:first-child + th + td { text-align: center; }
+		#wpntable tbody th:first-child + th + td + td +td { text-align: center; }
+		#wpntable tbody th:first-child + th + td + td + td + td { text-align: center; }
+		#wpntable tfoot td { text-align: left; }
+
+		#legntable
+		{ margin-top: 2.5em; }
+
+		.legnicon, .legnlvl, .legnnmfk { width: 5%; }
+		.legnnmsro { width: 7%; }
+		.legnname { width: 18%; }
+		.legndesc { width: 60%; text-align: center; }
+
+		#legntable .col3, .col5, .col6 { text-align: center; }
+		#legntable .col4  { text-align: left; }
+		#legntable tbody th:first-child + th + td { text-align: center; }
+		#legntable tbody th:first-child + th + td + td +td { text-align: center; }
+		#legntable tbody th:first-child + th + td + td + td + td { text-align: center; }
+
+		#herotable
+		{ margin-top: 2.5em; }
+
+		.heroicon, .herolvl, .herotype { width: 5%; }
+		.herocost { width: 6%; }
+		.heroname { width: 18%; }
+		.herodesc { width: 61%; text-align: center; }
+
+		#herotable .col3, .col5, .col6 { text-align: center; }
+		#herotable .col4  { text-align: left; }
+		#herotable tbody th:first-child + th + td { text-align: center; }
+		#herotable tbody th:first-child + th + td + td +td { text-align: center; }
+		#herotable tbody th:first-child + th + td + td + td + td { text-align: center; }
+
+/* Sitemap Styler */
+
+#sitemap, #sitemap ul, #sitemap li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#sitemap{}
+#sitemap ul{
+	display:none;
+}
+#sitemap li{
+	line-height:200%;
+	margin-top:1px;
+	background:#069;
+	position:relative;
+	width:100%;
+}
+
+#sitemap li a{padding-left:28px;}
+#sitemap li strong{padding-left:28px;}
+#sitemap li span{float:left;position:absolute;top:5px;left:5px;width:13px;height:13px;cursor:auto;font-size:0;}
+#sitemap li span, #sitemap li span.collapsed{background:url(/web/20190227050452im_/http://fwo.easternmorning.ca/img/collapsed.gif) no-repeat 0 0;} 
+#sitemap li span.expanded{background:url(/web/20190227050452im_/http://fwo.easternmorning.ca/img/expanded.gif) no-repeat 0 0;}
+
+/* second level */
+
+#sitemap li li{background:#069;}
+#sitemap li li a{padding-left:56px;}
+#sitemap li li strong{padding-left:56px;}
+#sitemap li li span{left:28px;}
+
+/* third level */
+
+#sitemap li li li a{padding-left:84px;}
+#sitemap li li li strong{padding-left:84px;}
+#sitemap li li li span{left:56px;}
+
+/* etc. */
+
+#sitemap li li li li a{padding-left:112px;}
+#sitemap li li li li span{left:84px;}
+
+
+/* Footer */		
+		#footer
+		{
+			background-color: #047;
+			border-top: 1px solid #fb1;
+			clear: both;
+			padding: 1em;
+			text-align: left;
+
+		}
+
+		#footer p {
+			font-size: 0.8em;
+			line-height: 1.6em;
+			margin-top: 0.2em;
+			margin-bottom: 0.2em;
+		}
+
+/*
+     FILE ARCHIVED ON 05:04:52 Feb 27, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:42:36 Jan 09, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 790.517
+  exclusion.robots: 0.185
+  load_resource: 1092.709
+  PetaboxLoader3.datanode: 546.355 (4)
+  RedisCDXSource: 1.599
+  exclusion.robots.policy: 0.173
+  LoadShardBlock: 774.724 (3)
+  PetaboxLoader3.resolve: 1133.67 (2)
+  esindex: 0.016
+  CDXLines.iter: 11.003 (3)
+*/

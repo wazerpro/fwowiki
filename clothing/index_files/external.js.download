@@ -1,0 +1,34 @@
+function externalLinks() { 
+ if (!document.getElementsByTagName) return; 
+ var anchors = document.getElementsByTagName("a"); 
+ for (var i=0; i<anchors.length; i++) { 
+   var anchor = anchors[i]; 
+   if (anchor.getAttribute("href") && 
+       anchor.getAttribute("rel") == "external") 
+     anchor.target = "_blank"; 
+ } 
+} 
+window.onload = externalLinks;
+
+
+/*
+     FILE ARCHIVED ON 01:58:06 Feb 27, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:15:25 Jan 09, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  RedisCDXSource: 9.572
+  exclusion.robots.policy: 0.571
+  LoadShardBlock: 220.106 (3)
+  CDXLines.iter: 16.16 (3)
+  PetaboxLoader3.datanode: 242.108 (4)
+  PetaboxLoader3.resolve: 45.737
+  esindex: 0.016
+  exclusion.robots: 0.587
+  captures_list: 250.317
+  load_resource: 133.182
+*/

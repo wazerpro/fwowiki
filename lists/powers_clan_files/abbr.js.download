@@ -1,0 +1,49 @@
+function styleAbbr() {
+	var oldBodyText, newBodyText, reg
+	if (isIE) {
+		oldBodyText = document.body.innerHTML;
+		reg = /<ABBR([^>]*)>([^<]*)<\/ABBR>/g;
+		newBodyText = oldBodyText.replace(reg, '<ABBR $1><SPAN class=\"abbr\" $1>$2</SPAN></ABBR>');
+		document.body.innerHTML = newBodyText;
+	}
+}
+
+function setSpan() {
+	var abbrs, span, abbrText
+	abbrs = document.getElementsByTagName('abbr');
+	for(i = 0; i < abbrs.length; i++) {
+		span = document.createElement('span');
+		span.setAttribute('title', abbrs[i].getAttribute('title'));
+		abbrText = abbrs[i].nextSibling.data;
+		span.appendChild(document.createTextNode(abbrText));
+		document.body.replaceChild(span, abbrs[i]. nextSibling);
+	}
+}
+
+window.onload = function(){
+	styleAbbr()
+};
+
+isIE = (document.all) ? true:false;
+
+/*
+     FILE ARCHIVED ON 00:45:21 Feb 27, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 06:32:44 Jan 09, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  RedisCDXSource: 2.399
+  esindex: 0.018
+  captures_list: 452.348
+  exclusion.robots: 0.229
+  PetaboxLoader3.resolve: 446.679 (2)
+  exclusion.robots.policy: 0.214
+  CDXLines.iter: 12.647 (3)
+  LoadShardBlock: 433.762 (3)
+  load_resource: 203.081
+  PetaboxLoader3.datanode: 167.757 (4)
+*/

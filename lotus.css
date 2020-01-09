@@ -15,7 +15,7 @@ body {
 }
 
 a, a:link, a:visited { color: #fb1; text-decoration: none }
-a:hover, a:active { color: #fff; text-decoration: underline; }
+a:hover, a:active { color: #fff	; text-decoration: underline; }
 
 h1, h2, h3 { font-weight: normal; }
 a, b, strong, h4, h5, h6 { font-weight: bold; }
