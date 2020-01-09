@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<pagescount>
+	<html_total>115</html_total>
+	<html_done>115</html_done>
+	<img>17</img>
+	<js>2</js>
+	<css>3</css>
+	<pdf/>
+	<doc/>
+	<xls/>
+	<ppt/>
+	<swf/>
+	<mp3/>
+	<mp4/>
+	<wav/>
+	<xml/>
+	<json/>
+	<txt/>
+	<fonts/>
+	<scraping_reload>1</scraping_reload>
+	<is_pretty_url>false</is_pretty_url>
+	<is_ebn>false</is_ebn>
+	<email>wazir@wazer.pro</email>
+	<theme_name>79424</theme_name>
+	<server_url_front_page>https://www.waybackmachinedownloader.com/scraping/files/demo/fwo.easternmorning.ca_wazir_wazer.pro_st6vdtv50be/</server_url_front_page>
+	<no_www_url>fwo.easternmorning.ca</no_www_url>
+	<hosted_domain/>
+	<original_archive_url>http://web.archive.org/web/20121223024126/http://fwo.easternmorning.ca/</original_archive_url>
+	<final_archive_url>http://web.archive.org/web/20121223024126/http://fwo.easternmorning.ca/</final_archive_url>
+	<front_page_code_date>20121223024126</front_page_code_date>
+	<total_urls_from_api/>
+	<max_reached_live>false</max_reached_live>
+	<scrape_other_captures>false</scrape_other_captures>
+	<total_size>840</total_size>
+</pagescount>
